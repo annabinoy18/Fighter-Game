@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+  background: linear-gradient(to bottom right, #8a0a0a, #ec5c5c); /* Muted red gradient */
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'VT323', monospace;
+  color: #FFFFFF; /* White text color for contrast */
+  margin: 0; /* Remove default margin */
+}
+
+.menu {
+  width: 70%; /* Increased width */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px; /* Added margin for space between elements */
+}
+
+#p1, #p2 {
+  width: 150px; /* Increased size */
+  height: 150px; /* Increased size */
+}
+
+.p1Info, .p2Info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 390px; /* Increased height */
+  width: 350px; /* Increased width */
+  background: #d47624; /* Muted orange background */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Added padding */
+  margin: 15px; /* Added margin between elements */
+}
+
+#p1Name, #p2Name {
+  font-size: 35px; /* Larger font size */
+  margin-bottom: 10px; /* Space below the name */
+}
+
+#p1Health, #p2Health {
+  font-size: 55px; /* Larger font size */
+}
+
+.playerControls {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 20px; /* Space above player controls */
+}
+
+.AttackDiv, .HealDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px; /* Increased height */
+  width: 120px; /* Increased width */
+  margin-top: 10px; /* Space above each div */
+}
+
+#attack {
+  height: 40px; /* Increased size */
+  width: 80px; /* Increased size */
+  border-radius: 50px;
+  border: none;
+  background: #A0522D; /* Muted red-brown button background */
+  color: #FFFFFF; /* White text color */
+  outline: none;
+  cursor: pointer;
+}
+
+#heal {
+  height: 40px; /* Increased size */
+  width: 80px; /* Increased size */
+  border-radius: 50px;
+  border: none;
+  background: #d95d05; /* Muted orange button background */
+  color: #FFFFFF; /* White text color */
+  outline: none;
+  cursor: pointer;
+}
+
+#play {
+  height: 60px; /* Increased size */
+  width: 140px; /* Increased size */
+  border-radius: 20px;
+  border: none;
+  background: #c3611b; /* Darker, muted red-orange background */
+  outline: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px; /* Space above play button */
+}
+
+#result {
+  font-size: 55px; /* Increased font size */
+  color: #FFD700; /* Gold color for result text */
+  margin-top: 20px; /* Space above result */
+}
+
+#reset {
+  margin-top: 20px; /* Increased space above reset */
+  height: 50px; /* Increased size */
+  width: 120px; /* Increased size */
+  border-radius: 20px;
+  border: none;
+  background: #914712; /* Darker, muted red-orange background */
+  outline: none;
+  color: white;
+  cursor: pointer;
+}
+
+.resultContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 160px; /* Increased height */
+  width: 350px; /* Increased width */
+  background: #d77724; /* Muted orange background */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Added padding */
+  margin-top: 15px; /* Space above result container */
+}
